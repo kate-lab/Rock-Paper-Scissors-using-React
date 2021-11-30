@@ -1,0 +1,46 @@
+div {
+  text-align: center;
+  margin: 30px;
+}
+
+body {
+  margin: 10%  auto;
+  max-width: 700px;
+}
+
+.rock, .paper, .scissors {
+  height: 100px;
+  width: 150px;
+  margin: 2px;
+}
+
+.rock {
+  background-image: url(https://besthqwallpapers.com/Uploads/12-4-2021/162579/thumb2-gray-rock-texture-stone-texture-rock-texture-natural-texture-stone-background.jpg);
+  background-color: darkslategrey;
+  color: white;
+}
+.paper {
+  background-image: url(https://w0.peakpx.com/wallpaper/625/441/HD-wallpaper-brown-paper-texture-brown-crumpled-paper-macro-brown-paper-vintage-texture-crumpled-paper-paper-textures-brown-backgrounds.jpg);
+  background-color: darkslategrey;
+  color: white;
+}
+.scissors {
+  background-color: darkslategrey;
+  color: white;
+  background: linear-gradient(
+    -25deg,
+    #4d4d4d,
+    #dedede 21%,
+    #e4e4e4 24%,
+    #454545 27%,
+    #9d9d9d 43%,
+    #c4c4c4 68%,
+    #ffffff 75%,
+    #989898 78%,
+    #fafafa 86%,
+    #878787);
+}
+.scissors:hover , .paper:hover , .rock:hover {
+  background-color: rgba(255, 255, 255);
+  color: black;
+}
